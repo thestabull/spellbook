@@ -12,7 +12,7 @@
   )
 }}
 
-{% set sui_transfer_start_date = '2026-01-01' %} -- just ci test
+{% set sui_transfer_start_date = '2023-04-12' %}
 {% set incremental_time = var('DBT_ENV_INCREMENTAL_TIME') | int %}
 {% set incremental_time_unit = var('DBT_ENV_INCREMENTAL_TIME_UNIT') %}
 {% set incremental_anchor_horizon_sql %}
